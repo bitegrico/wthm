@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) and (min-width: 320px) {
+	.navbar-brand {
+    	width: auto !important;
+	    padding: 0 !important;
+    }
+	.navbar-default .navbar-toggle {
+	    margin-right: 20px;
+	}
+	header a.navbar-brand.logo img {
+	    margin-top: 10px !important;
+	}
+	.product_carousel {
+	    padding-left: 32%;
+	    bottom: -1% !important;
+	}
+	.testimonial_carousel {
+	    padding-left: 0 !important;
+	    bottom: 0 !important;
+	}
+		.team_carousel {
+	    bottom: 0px !important;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	header a.navbar-brand.logo img {
+	    margin-top: -33px !important;
+	}
+	.navbar-default .navbar-nav>li>a {
+    	padding: 23px 8px !important;
+	}
+	.productInfo a {
+	    width: 95px;
+	}
+	.product_carousel {
+    	padding-left: 48%;
+    }
+    .testimonial_carousel {
+	    padding-left: 87px !important;
+	}
+}
